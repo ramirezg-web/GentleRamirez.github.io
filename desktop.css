@@ -1,0 +1,149 @@
+#wrap{
+  border: solid 1px black;
+  background-color: white;
+  width: 1024px;
+  margin: 0 auto;
+}
+h1{
+  border: solid 1px;
+  /*display: flex;*/
+  text-align: center;
+  background-color: white;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+header{
+border: solid 1px red;
+background-color: red;
+/*display: flex;*/
+padding: 10px;
+}
+
+nav{
+  margin: 2px;
+  background-color: rgb(0,128,0);
+  list-style: none;
+}
+nav ul{
+  padding: 0px;
+  display: flex;
+}
+nav ul a{
+  flex-grow: 1;
+
+}
+nav ul a:link{
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul a:visited{
+  color: yellow;
+}
+nav ul li{
+  list-style: none;
+  padding: 8px;
+  border: solid 1px black;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family; astrofont;
+}
+nav ul a li{
+  font-family: astrofont;
+}
+/* nav ul li:last-child{
+  border-right: none; */
+
+nav ul li:hover{
+  background-color: #0D34F5;
+  color: green;
+}
+
+p{
+  font-size: 15pt;
+  font-family: sans-serif;
+  color: white;
+  padding-left: 90px;
+  padding-right: 90px;
+
+}
+/*nav{
+  border: solid 1px black;
+  background-color: green;
+  padding: 10px;
+  list-style: none;
+}
+
+nav ul{
+  border: solid 1px green;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+nav ul a{
+  flex-grow: 1;
+}
+nav ul li{
+  border: solid 1px black;
+  text-align: center;
+  list-style: none;
+
+  flex-grow: 1;
+}
+*/
+#MainArea{
+  border: solid 1px black;
+  min-height: 300px;
+}
+
+#subArea{
+  border: solid 3px black;
+  /* display: flex; */
+}
+
+.information{
+  display: flex;
+  border: solid 1px black;
+  flex-grow: 1;
+  min-height: 200px;
+}
+.square{
+  display: flex;
+  height: 100px;
+  width: 100px;
+  background-color: #555;
+}
+.circle{
+    display: flex;
+     width: 50px;
+     height: 50px;
+     margin-left: 500px;
+     border: solid 5px black;
+     -webkit-border-radius: 25px;
+     -moz-border-radius: 25px;
+     border-radius: 25px;
+     background: red;
+}
+.circle2{
+    display: flex;
+     width: 50px;
+     height: 50px;
+     margin-right: 500px;
+     border: solid 5px black;
+     -webkit-border-radius: 25px;
+     -moz-border-radius: 25px;
+     border-radius: 25px;
+     background: red;
+}
+
+footer{
+  display: flex;
+  border: solid 1px black;
+  min-height: 150px;
+
+}
+footer section{
+  margin: 50px;
+  border: solid 1px;
+
+}
